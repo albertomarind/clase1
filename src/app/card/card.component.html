@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header">
+        <img [src]="imagePath">
+        <span class="card-label" *ngIf="precio < 100" [ngStyle]="{'color':precio < 50 ? 'yellow':'white'}"
+            [ngClass]="{'super-oferta':precio < 50,'oferta-regular':precio === 70}">Oferta</span>
+    </div>
+    <div class="card-body">
+        <p>{{id}} {{description? description:'No hay descripcion'}}</p>
+    </div>
+    <div class="card-footer">
+        <label>{{precio | currency}}</label>
+        <button (click)="onClick()">Click</button>
+    </div>
+</div>

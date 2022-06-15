@@ -1,0 +1,53 @@
+.card {
+    width: 340px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 8px 16px;
+}
+
+.card .card-header img {
+    width: 100%;
+}
+
+.card-header {
+    position: relative;
+    overflow: hidden;
+}
+
+.card .card-label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding:2px 16px;
+    width: 100px;
+    text-align: center;
+    transform: rotate(45deg) translateX(25%);
+}
+
+.card .card-label.oferta-regular{
+    background-color: green;
+}
+
+.card .card-label.super-oferta{
+    background-color: pink;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ::ng-deep .mi-contenedor[atributo].otraclase > otro-elemento[aatr] .prime-button{
+    
+} */
+
+
+

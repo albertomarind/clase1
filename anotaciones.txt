@@ -1,0 +1,49 @@
+
+=======================================================
+
+CSS
+display
+position
+transform
+overflow
+flexbox
+gridlayout
+
+GRID LAYOUT
+
+
+
+
+
+
+NODEJS
+NPM -> NODE PACKAGE MANAGER
+npm 
+
+
+typescript ---> SUPER SET 
+
+
+STRING INTERPOLATION
+
+Property binding
+
+
+undefined != null != ''
+
+undefined = false
+
+
+
+Comunicación de padre a hijo
+
+Directivas estructurales
+
+ngFor
+ngIf
+ngSwitch
+
+Directivas de comportamiento
+
+ngClass
+ngStyle
